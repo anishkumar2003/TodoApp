@@ -1,0 +1,27 @@
+@media screen and (min-width:300px) and  (max-width:640px) {
+
+
+    .item_container{
+    display: grid;
+    grid-template-columns: 135px 100px 70px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+}
+.InputField
+{
+    font-size: 10px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border-color: lightslategray;
+}
+.btn-todo
+{
+    padding: 10px 0px;
+}
+.btn-delete
+{
+    padding: 10px 0px;
+}
+}

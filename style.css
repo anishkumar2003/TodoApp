@@ -1,0 +1,56 @@
+.heading
+{
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+    margin: 0;
+}
+.item_container
+{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top: 10px;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.InputField
+{
+    font-size: 15px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border-color: lightslategray;
+}
+
+.btn-todo
+{
+    background-color:green ;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    color: white;
+    cursor: pointer;
+}
+.btn-delete
+{
+    background-color: rgb(143, 9, 9);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+.alertmsg
+{
+    color: red;
+    display: none;
+}
